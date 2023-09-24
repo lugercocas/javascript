@@ -8,10 +8,23 @@ names.forEach(name => {
     console.log('*' +name);
 });
 
+
+
+for (const name of names) {
+    console.log('+' +name);
+}
+
 for (const name in names) {
     console.log('-' +names[name]);
 }
 
-for (const name of names) {
-    console.log('+' +name);
+let otherNames = {
+    name: 'Luis',
+    apellido: 'Castro',
+    peso: 15,
+    tel: 3213324
+}
+for (const name in otherNames) {
+    const element = otherNames[name];   
+    console.log(`${name} is ${element}`); 
 }
