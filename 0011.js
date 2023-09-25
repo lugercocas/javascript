@@ -1,3 +1,4 @@
+// Argumentos por defecto en una function
 function sumar(num1=0,num2=0) {
     return num1 + num2
 }
